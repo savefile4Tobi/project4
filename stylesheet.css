@@ -1,0 +1,58 @@
+.avatar{
+	width: 60px;
+}
+
+#header{
+	position: absolute;
+	z-index: 10;
+	width: 100%;
+
+}
+.nav-link: hover{
+  background: #dcdde1 !important;
+  color: #262626 !important;
+  border-radius: 5px;
+  transition: all 0.6s ease 0s;
+}
+  
+
+.bg-image{
+	background: url('https://webneel.com/wallpaper/sites/default/files/images/08-2018/3-nature-wallpaper-mountain.jpg'); 
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    opacity: 75%;
+
+}
+.navbar{
+background:transparent !important;
+}
+
+
+.nav-link{
+	color: #da680f !important;
+	letter-spacing: 2px;
+	font-size: 1em;
+	font-weight: 700;
+}
+.navbar-brand{
+	font-weight: bold;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	color: #cccc !important;
+
+}
+.main{
+	position: relative;
+	background: url('https://webneel.com/wallpaper/sites/default/files/images/08-2018/3-nature-wallpaper-mountain.jpg'); 
+	min-height: 100vh;
+	background-size: cover;
+	background-position: center;
+	
+
+}
+
+.all:after {
+  width: 100%;   /* some huge width */
+}
+
