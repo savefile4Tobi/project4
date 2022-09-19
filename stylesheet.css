@@ -47,7 +47,7 @@ background:transparent !important;
 	position: relative;
 	background: url('https://webneel.com/wallpaper/sites/default/files/images/08-2018/3-nature-wallpaper-mountain.jpg'); 
 	min-height: 100vh;
-	min-width: 100vw;
+	
 	background-size: cover;
 	background-position: center;
 	padding: 220px 0 22px;	
