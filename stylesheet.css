@@ -4,6 +4,7 @@
 }
 .nicepic {
 	height: 300px;
+	width: 400px;
 }
 
 #header{
@@ -11,6 +12,11 @@
 	z-index: 10;
 	width: 100%;
 
+}
+@media(min-width:768px) and (max-width: 991.98px) {
+	.nicepic {
+		width: 340px ;
+	}
 }
 .nav-link: hover{
   background: #dcdde1 !important;
@@ -20,14 +26,6 @@
 }
   
 
-.bg-image{
-	background: url('https://webneel.com/wallpaper/sites/default/files/images/08-2018/3-nature-wallpaper-mountain.jpg'); 
-    height: 100vh;
-    width: 100vw;
-    background-size: cover;
-    opacity: 75%;
-
-}
 .navbar{
 background:transparent !important;
 }
@@ -50,15 +48,15 @@ background:transparent !important;
 	position: relative;
 	background: url('https://webneel.com/wallpaper/sites/default/files/images/08-2018/3-nature-wallpaper-mountain.jpg'); 
 	min-height: 100vh;
+	min-width: 100vw;
 	background-size: cover;
 	background-position: center;
-	padding 280px 0 22px;
-	
+	padding: 220px 0 22px;	
 
 }
 
 .newClass{
-    margin:0px!important;
+    margin: 0px !important;
 }
 
 .zoom {
@@ -78,6 +76,16 @@ background:transparent !important;
   transform: scale(1.1); 
 
   
+}
+
+
+.zoom:hover {
+  padding-right: 25px;
+}
+
+.zoom:hover :after {
+  opacity: 1;
+  right: 0;
 }
 .noom{
 	padding: 50px;
@@ -108,4 +116,44 @@ background:transparent !important;
   -ms-transform: scale(1.1); /* IE 9 */
   -webkit-transform: scale(1.1); /* Safari 3-8 */
   transform: scale(1.1); 
+}
+
+.areas:hover > div {
+    opacity: 0.5;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+.areas:hover > div:hover,
+.areas:hover > div:hover * {
+    opacity: 1;
+    
+
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+.ex2:hover, 
+.ex2:active {
+	font-size: 150%;
+	color: antiquewhite;
+}
+
+
+/* unvisited link */
+a:link {
+  color: white  ;
+}
+
+/* visited link */
+a:visited {
+  color: green ;
+}
+
+/* mouse over link */
+a:hover {
+  color: white !important;
+}
+
+/* selected link */
+a:active {
+  color: yellow !important;
 }
